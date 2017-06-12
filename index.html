@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>個人簡歷</title>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ 	<link rel="stylesheet" href="main.css" type="text/css" media="screen"/>
+ 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+ 	<style>
+			body{
+				background:#333 url(images/bg.jpg) repeat top left;
+				font-family:Arial;
+				background-size: cover;
+			}							
+		</style>
+</head>
+<body>
+<div class="content">
+	<header id="top_header" class="container">
+		<section class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<h1>Raygoah's</h1>
+				<h2>個人簡歷</h2>
+			</div>	
+		</div>
+		</section>
+	</header>
+
+	<section class="jumbotorn">
+		<div class="container">
+			<div class="row text-center">
+				<h2>想知道更多關於<p>Raygoah</p></h2>
+				<h3>那就快往下看吧!!<h3>
+			</div>
+		</div>
+	</section>
+	<section id="self" class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="hover">
+					<p>個人大頭貼<br>(滑鼠移至圖片並點擊)</p>
+					<!-- <a img="images/self.png" href="https://www.facebook.com/chengxun.lei"></a> -->
+					
+					<a href="https://www.facebook.com/chengxun.lei">
+						<img src="images/dog.jpg" class="img-thumbnail">
+						<img src="images/self.png" class="img-thumbnail">	
+					</a>	
+				</div>				
+			</div>
+			<div class="col-sm-6">
+				<p>簡歷表格
+				<button type="button" name="ok" id="ok" value="簡歷表格" class="btn btn-info">點此</button>
+				<a type="button" name="test" id="test" value="確定" class="btn btn-primary" href='test.html'>小小測驗</a>
+				<!-- <button type="button" name="hide" id="hide" value="簡歷表格" class="btn btn-info" style="display:none">隱藏</button> -->
+				</p>
+				<table id="table" style="display:none" class="fancytable" border="5" >
+					<tr class="table_odd"> <td>名字</td> <td colspan="5">雷承勳</td> </tr>
+					<tr class="table_even"> <td>性別</td> <td colspan="5">男子漢</td> </tr>
+					<tr class="table_odd"> <td>生日</td> <td colspan="5">1996/10/21</td> </tr>
+					<tr class="table_even"> <td>出生地</td> <td colspan="5">台南市新化區</td> </tr>
+					<tr class="table_odd"> <td>目前就讀</td> <td colspan="5">成功大學資訊工程學系</td> </tr>
+					<tr class="table_even"> <td>年級</td> <td colspan="5">資訊107 大三</td> </tr>
+					<tr class="table_odd"> <td>興趣</td> <td colspan="5">play games、打籃球、看電影</td> </tr>
+					<tr class="table_even"> <td>LOL擅長的位置</td> <td colspan="5">Support</td> </tr>
+					<tr class="table_odd"> <td>MAIN角</td> <td colspan="5">慎、特朗德、貪肯奇</td> </tr>
+
+				</table>								
+			</div>
+			<div class="col-sm-2">
+				<p>學生旅程:</p>
+				<li>正新國小</li>
+				<li>新化國中</li>				
+				<li>台南一中</li>
+				<li>成功大學</li>
+			</div>								
+			<div class="col-sm-12">
+				<a id="footer" style="display:none"></a>				
+			</div>										
+		</div>
+	</section>
+	
+		
+	
+			
+
+	
+			
+		
+
+</div>
+				<script language="Javascript">
+					    var btn=document.getElementById("ok");
+					    var k=0;					    
+					    btn.onclick=function(){
+					    			k++;
+						    		if(k%2==1)
+						    		{					    	
+							      		$("table").attr("style"," ");
+							      		$("#footer").attr("style"," ");
+							      		$("#footer2").attr("style"," ");
+						      		}
+						      		else{
+						      			$("table").attr("style","display:none");
+							      		$("#footer").attr("style","display:none");
+							      		$("#footer2").attr("style","display:none");
+						      		}	
+					      		};
+				</script>
+</body>
+</html>

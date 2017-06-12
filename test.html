@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>個人簡歷之小測驗</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ 	<link rel="stylesheet" href="main1.css" type="text/css" media="screen"/>
+ 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+ 	<style>
+			body{
+				background:#333 url(images/bg.jpg) repeat top left;
+				font-family:Arial;
+				background-size: cover;
+			}							
+		</style>
+</head>
+<body>
+		<header id="top_header" class="container">
+			<section class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1>關於Raygoah的</h1>
+					<h2>小小測驗</h2>
+				</div>	
+			</div>
+			</section>
+		</header>
+	<section class="jumbotorn">
+		<div class="container">
+			<div class="row text-center">
+				<h2>想知道你有多了解<p>Raygoah</p></h2>
+				<h3>快來挑戰吧<h3>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+	<div class="row">
+
+      
+		<h2 class="eat">Raygoah喜歡吃啥?</h2>
+		<figure class="col-sm-6">
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="location" value="壽司">
+		    <p>壽司</p>
+		    <a class="picture1"></a>
+		  </label>
+		</div>
+		</figure>
+
+		<figure class="col-sm-6">
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="location" value="焗烤" >
+		    <p>焗烤</p>
+		    <a class="picture2"></a>
+		  </label>
+		</div>
+		</figure>
+
+		<figure class="col-sm-6">
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="location" value="學妹" >
+		    <p>學妹</p>
+		    <a class="picture3"></a>
+		  </label>
+		</div>
+		</figure>
+
+		<figure class="col-sm-6">
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="location" value="right" >
+		    <p>以上皆是</p>
+		    <a class="picture4"></a>
+		  </label>
+		</div>
+		</figure>
+	</section>
+	<div class="container">
+		<div class="row">						
+				<a type="button" name="col-sm-8" id="ok" value="確定" class="btn btn-primary" href='index.html'>確定</a>
+						
+		</div>
+	</div>
+
+	<script language="Javascript">
+	    var btn=document.getElementById("ok");
+	    btn.onclick=function(){
+	      var obj=document.getElementsByName("location");
+	      var selected=[];
+	      for (var i=0; i<obj.length; i++) {
+	        if (obj[i].checked) {
+	          selected.push(obj[i].value);
+	          }
+	        }
+	        //alert(selected[0]);
+	      	if(selected[0]=="right")
+	        {
+	        	alert("你真了解Raygoah >口<");
+	        }
+	        else
+	        {
+	        	alert("可惜了~再好好想想吧>w<");
+	        }
+	        obj[0]="";
+	    }
+	</script>        
+</body>
+</html>

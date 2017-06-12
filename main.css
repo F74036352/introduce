@@ -1,0 +1,135 @@
+#top_header{
+	margin: 20px;
+	/*text-align: center;*/
+	padding-left: 100px;	
+	color: white;
+}
+header h1 {
+	/*margin: 20px;*/
+	/*padding-left: 20px;*/
+	font:bold 48px Tahoma;
+	color: #8E8E8E;
+	font-weight: bold;	
+}
+header h2 {	
+	font:bold 32px Tahoma;
+	color: #8E8E8E;	
+	font-weight: bold;
+}
+.jumbotorn {
+  display: flex;
+  align-items: center;
+  background-image: url('images/picture_1.jpg');
+  background-size: cover;
+  color:	#FDFFFF;
+  height: 350px;
+  margin: 20px 100px 20px 100px;
+  font: bold ;
+}
+.jumbotorn h2{
+	font-size: 60px;
+	font-weight: bold;
+	color:	#F0F0F0;
+	text-shadow: 2px 2px 2px black;
+}
+.jumbotorn h3{
+	
+	font-size: 40px;
+	color: #F0F0F0;
+	font: Tahoma ;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+}
+.jumbotorn p{
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+	color:	#00CACA;/*#000079;*/
+	font-size: 60px;
+	font-style: italic;
+	font: Tahoma;
+}
+#self{
+	
+	padding-left: 10px;
+}
+div p{
+	color: #8E8E8E;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+	font-size: 32px;
+	font: Tahoma;
+}
+.col-sm-8 a{
+
+}
+/*.col-sm-4 a{
+	width:200px; height:268px; display:block;
+	background-image: url('images/self.png');
+}
+.col-sm-4 a:hover{
+	background-image: url('images/dog.jpg');
+}*/
+.hover {
+	position:relative;
+}
+
+.hover img {
+  position:absolute; 
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
+.hover img:nth-of-type(2):hover{
+  opacity:0; /*滑鼠滑入時，透明度變0*/
+}
+img{
+	margin: 0 20px 100px 0px;
+}
+table{
+	margin: 0 20px 0 20px;
+	border-color: 	#AE0000; 
+}
+.fancytable td{ 
+	border:1px solid #cccccc; 	
+	text-align:center;
+	line-height:36px;
+}
+.table_odd {
+	background-color:#9D9D9D;
+	
+}
+.table_even {
+	background-color:	#FFAF60;
+	
+}
+.table_odd td{
+		color:#0072E3;
+}
+.table_even td{
+	color:black;
+}
+td{
+	color: white;
+	font-weight: bold;
+	font:Tahoma;
+	font-size: 24px;
+}
+#footer{
+	display:flex;
+	width:900px; height:420px; 
+	margin: 150px 200px 50px 50px;
+	display:block;
+	background-image: url('images/thank.jpg');	
+	background-size: cover;
+	/*justify-content:center;
+	align-items:center;*/
+
+}
+li{
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	font:Tahoma; 
+}

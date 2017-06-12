@@ -1,0 +1,94 @@
+#top_header{
+	margin: 20px;
+	/*text-align: center;*/
+	padding-left: 100px;	
+	color: white;
+}
+header h1 {
+	/*margin: 20px;*/
+	/*padding-left: 20px;*/
+	font:bold 48px Tahoma;
+	color: #8E8E8E;
+	font-weight: bold;	
+}
+header h2 {	
+	font:bold 32px Tahoma;
+	color: #8E8E8E;	
+	font-weight: bold;
+}
+.jumbotorn {
+  display: flex;
+  align-items: center;
+  background-image: url('images/picture_2.jpg');
+  background-size: cover;
+  color:	#FDFFFF;
+  height: 500px;
+  margin: 20px 100px 20px 100px;
+  font: bold ;
+}
+.jumbotorn h2{
+	font-size: 60px;
+	font-weight: bold;
+	color:	#F0F0F0;
+	text-shadow: 2px 2px 2px black;
+}
+.jumbotorn h3{
+	
+	font-size: 40px;
+	color: #F0F0F0;
+	font: Tahoma ;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+}
+.jumbotorn p{
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+	color:#F75000;/*#000079;*/
+	font-size: 60px;
+	font-style: italic;
+	font: Tahoma;
+}
+.eat{
+	color:white;
+	font-weight: bold;
+	font-size: 48px;
+}
+.col-sm-6 p{
+	color:white;
+	font-weight: bold;
+	font-size: 36px;
+}
+.picture1{
+	width:500px; height:300px; display:block;
+	background-image: url('images/susi.jpg');
+}
+.picture2{
+	width:500px; height:300px; display:block;
+	background-image: url('images/rice.jpg');
+}
+.picture3{
+	width:500px; height:300px; display:block;
+	background-image: url('images/girl.jpg');
+}
+.picture4{
+	width:500px; height:300px; display:block;
+	background-image: url('images/shy.jpg');
+}
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color:  #444444;
+  text-shadow: none;
+  background-color:   #00FFFF;
+  margin: 20px 500px 10px 500px;
+}
+.btn.btn-primary:hover {
+  color: #00FFFF;
+  background-color: #444444;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
